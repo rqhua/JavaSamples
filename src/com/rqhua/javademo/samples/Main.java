@@ -2,9 +2,6 @@ package com.rqhua.javademo.samples;
 
 public class Main {
     public static void main(String[] args) {
-        String s = "学Java";
-
-        int a =1;
 
         System.out.println("byte " + Byte.BYTES);
         System.out.println("short " + Short.BYTES);
@@ -15,7 +12,7 @@ public class Main {
         System.out.println("long " + Long.BYTES);
 
 
-        printLength(s);
+        printLength("学Java");
         printLength("学");
         printLength("華");
         printLength("J");
