@@ -10,14 +10,12 @@ public class Main {
         System.out.println("float " + Float.BYTES);
         System.out.println("double " + Double.BYTES);
         System.out.println("long " + Long.BYTES);
-
-
+        
         printLength("学Java");
         printLength("学");
         printLength("華");
         printLength("J");
         printLength("Java");
-
     }
     private static void printLength(String string) {
         System.out.println(string + " 所占内存 " + string.getBytes().length + " byte");
