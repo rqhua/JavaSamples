@@ -25,9 +25,4 @@ public class Main {
     private static void printLength(String string) {
         System.out.println(string + " 所占内存 " + string.getBytes().length + " byte");
     }
-
-    private static void printBasicTypeBytes(){
-
-    }
-
 }
